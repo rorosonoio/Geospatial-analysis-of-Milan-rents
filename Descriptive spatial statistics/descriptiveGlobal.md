@@ -1,8 +1,3 @@
-Descriptive spatial statistic - global
-================
-Roberta
-30/1/2023
-
 # Descriptive spatial statistics in the global case
 
 First the necessary libraries are installed:
