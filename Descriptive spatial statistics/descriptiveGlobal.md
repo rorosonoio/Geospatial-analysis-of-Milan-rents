@@ -60,7 +60,7 @@ is from the center. This does not suggest a random or sparse behavior of
 the rent prices, however, the Moran I test can confirm objectively if
 areas with high prices influence the nearby areas as well.
 
-![](descriptiveGlobal_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](Descriptive spatial statistics/Plots and figures/unnamed-chunk-4-1.png)<!-- -->
 
 # Moran I test
 
