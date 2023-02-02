@@ -1,3 +1,3 @@
 # The following datasets were used for this project:
 - dataImmobiliare: taken from [Immobiliare](https://www.immobiliare.it/mercato-immobiliare/lombardia/milano/) (as of January 2023) lists the average price, of rent or sale per square meter, of a house in Milan divided by neighborhoods. 
-- milano_map.zip: zip file containing the map of Milan divided in NIL (Nuclei di Identità Locale), with the rent values taken from dataImmobiliare associated to every area.
+- milano.zip: zip file containing the map of Milan divided in NIL (Nuclei di Identità Locale), with the rent values taken from dataImmobiliare associated to every area. Source on [Milano Open Data.](https://dati.comune.milano.it/dataset/ds964-nil-vigenti-pgt-2030/resource/f5a2ea4b-3d9e-458c-a11f-a3815553db18)
