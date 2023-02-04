@@ -1,7 +1,4 @@
-descriptiveLocal
-================
-Roberta
-30/1/2023
+# Descriptive local statistics
 
 The necessary packages and data is imported.
 
