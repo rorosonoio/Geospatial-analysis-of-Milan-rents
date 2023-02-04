@@ -37,7 +37,7 @@ mplot <- moran.plot(MI$Rent, listw=dnb1772.listw, main="Moran scatterplot")
 grid()
 ```
 
-![](descriptive_spatial_statistis_local_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](https://github.com/rorosonoio/Geospatial-analysis-of-Milan-rents/blob/dc00d438885ea5ed785c413ec657ee7d5a6832dd/Descriptive%20spatial%20statistics/Plots%20and%20figures/unnamed-chunk-3-1.png)<!-- -->
 
 It can be noticed that no influential region are present in the areas of
 High-High and Low-Low, which suggests that no area of big influence is
@@ -69,7 +69,7 @@ table(MI$quadrant)
 tm_shape(MI) + tm_polygons("quadrant")
 ```
 
-![](descriptive_spatial_statistis_local_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](https://github.com/rorosonoio/Geospatial-analysis-of-Milan-rents/blob/dc00d438885ea5ed785c413ec657ee7d5a6832dd/Descriptive%20spatial%20statistics/Plots%20and%20figures/unnamed-chunk-5-1.png)<!-- -->
 
 ``` r
 lmI <- localmoran(MI$Rent, dnb1772.listw)
@@ -81,7 +81,7 @@ tm_shape(MI) +
 
     ## Variable(s) "lmI" contains positive and negative values, so midpoint is set to 0. Set midpoint = NA to show the full spectrum of the color palette.
 
-![](descriptive_spatial_statistis_local_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![]([descriptive_spatial_statistis_local_files/figure-gfm/unnamed-chunk-6-1.png](https://github.com/rorosonoio/Geospatial-analysis-of-Milan-rents/blob/dc00d438885ea5ed785c413ec657ee7d5a6832dd/Descriptive%20spatial%20statistics/Plots%20and%20figures/unnamed-chunk-6-1.png))<!-- -->
 
 It can be noticed that the values of some neighborhoods in the western
 part of the city seem to have a high Moran’s I value. It can also be
@@ -100,7 +100,7 @@ tm_shape(MI) +
                 breaks=c(0, 0.0005, 0.001, 0.005, 0.01, 0.05, 0.1, 0.2, 0.5, 0.75, 1)) 
 ```
 
-![](descriptive_spatial_statistis_local_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](https://github.com/rorosonoio/Geospatial-analysis-of-Milan-rents/blob/dc00d438885ea5ed785c413ec657ee7d5a6832dd/Descriptive%20spatial%20statistics/Plots%20and%20figures/unnamed-chunk-7-1.png)<!-- -->
 
 As it can be noticed, the most relevant results are the ones of the
 areas in the city center, which are the most influential and cause the
