@@ -104,9 +104,11 @@ tm_shape(MI) +
 
 ![](https://github.com/rorosonoio/Geospatial-analysis-of-Milan-rents/blob/dc00d438885ea5ed785c413ec657ee7d5a6832dd/Descriptive%20spatial%20statistics/Plots%20and%20figures/unnamed-chunk-7-1.png)<!-- -->
 
-As it can be noticed, the most relevant results are the ones of the
+As it can be noticed, the only relevant results are the ones of the
 areas in the city center, which are the most influential and cause the
 biggest rise in rents, were they to rise prices themselves. The other
 areas, despite obtaining a higher Moran’s I value, do not seem to have a
 significant p-value, which means that those results are not significant
 in our analysis and they do not hold influence on other areas.
+
+To conclude, it seems that the only influential area is the one of the city center, while the other do not have any relevant influence or correlation with their neigbors.
