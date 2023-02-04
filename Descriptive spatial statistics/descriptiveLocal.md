@@ -71,6 +71,8 @@ tm_shape(MI) + tm_polygons("quadrant")
 
 ![](https://github.com/rorosonoio/Geospatial-analysis-of-Milan-rents/blob/dc00d438885ea5ed785c413ec657ee7d5a6832dd/Descriptive%20spatial%20statistics/Plots%20and%20figures/unnamed-chunk-5-1.png)<!-- -->
 
+By the results obtained, it seems that the city center areas are the values present in the HH quadrant, while the LL are present in the outskirts of the city. Interestingly, some LH areas are present in the areas in the middle and one HL area. Before finding an interpretation it is necessary to check if they are statistically relevant.
+
 ``` r
 lmI <- localmoran(MI$Rent, dnb1772.listw)
 
