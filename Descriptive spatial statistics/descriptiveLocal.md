@@ -81,7 +81,7 @@ tm_shape(MI) +
 
     ## Variable(s) "lmI" contains positive and negative values, so midpoint is set to 0. Set midpoint = NA to show the full spectrum of the color palette.
 
-![]([descriptive_spatial_statistis_local_files/figure-gfm/unnamed-chunk-6-1.png](https://github.com/rorosonoio/Geospatial-analysis-of-Milan-rents/blob/dc00d438885ea5ed785c413ec657ee7d5a6832dd/Descriptive%20spatial%20statistics/Plots%20and%20figures/unnamed-chunk-6-1.png))<!-- -->
+![](https://github.com/rorosonoio/Geospatial-analysis-of-Milan-rents/blob/dc00d438885ea5ed785c413ec657ee7d5a6832dd/Descriptive%20spatial%20statistics/Plots%20and%20figures/unnamed-chunk-6-1.png)<!-- -->
 
 It can be noticed that the values of some neighborhoods in the western
 part of the city seem to have a high Moran’s I value. It can also be
