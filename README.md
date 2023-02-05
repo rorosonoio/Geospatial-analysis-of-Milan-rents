@@ -1,4 +1,5 @@
 # Geospatial analysis on Milan's rent prices
+This project was made for the course of Geospatial analysis and representation for data science in Università di Trento, 2022. \
 The aim of this project is to perform an analysis of the rents in the city of Milan, divided in neighborhoods. In particular, this project aims to confirm whether spatial dependance is present in the territory and how an area can influence its neighboring ones (if positively or negatively). \
 Moreover, after having found the most influential neighborhoods, a study will be performed on the presence of services in some selected areas.
 
