@@ -7,7 +7,8 @@ In detail, the project is developed in the following steps, which is the ideal o
 1. **Data preparation**: this part contains code which shows the methods followed to retrieve data and/or prepare it for further analysis, in order to work as smoothly as possible.
 2. **Descriptive spatial statistics**: an analysis is performed to check if spatial dependence is present and how each area influences its neighbors.
 3. **Data visualization**: some data visualization is performed in order to view the distribution of the services in the territory of the city of Milan.
+4. **Closest metro**: an analysis is performed to find the average waling distance of a metro stop from any point in three selected neighborhoods (Centro, Ticinese and Famagosta).
 
 ## Packages used
-**Python**: pandas, BeautifulSoup, request, geopandas, matplotlib \
+**Python**: pandas, BeautifulSoup, request, geopandas, matplotlib, pyrosm, osmnx, numpy, shapely \
 **R**: sf, tmap, spdep, spatialreg
