@@ -89,10 +89,10 @@ It can be noticed that the values of some neighborhoods in the western
 part of the city seem to have a high Moran’s I value. It can also be
 noticed, from the choropleth present in the global analysis, that those
 areas had the lowest prices in rent. This could mean that being this far
-away from the center makes it an influential area, and it could
-influence the nearby areas to have lower prices than the city center.
+away from the center makes it an influential area by itself, and it could
+influence the nearby areas.
 
-Given the previous calculation, it is useful to calculate the actual
+However, after the previous calculations, it is useful to calculate the actual
 significance of those result.
 
 ``` r
@@ -104,8 +104,8 @@ tm_shape(MI) +
 
 ![](https://github.com/rorosonoio/Geospatial-analysis-of-Milan-rents/blob/dc00d438885ea5ed785c413ec657ee7d5a6832dd/Descriptive%20spatial%20statistics/Plots%20and%20figures/unnamed-chunk-7-1.png)<!-- -->
 
-As it can be noticed, the only relevant results are the ones of the
-areas in the city center, which are the most influential and cause the
+As can be noticed, the only relevant results are the ones of the
+neighborhoods in the city center, which are the most influential and cause the
 biggest rise in rents, were they to rise prices themselves. The other
 areas, despite obtaining a higher Moran’s I value, do not seem to have a
 significant p-value, which means that those results are not significant
