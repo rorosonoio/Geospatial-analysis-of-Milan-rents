@@ -12,5 +12,5 @@ In detail, the project is developed in the following steps, which is the ideal o
 4. **Closest metro**: an analysis is performed to find the average waling distance of a metro stop from any point in three selected neighborhoods (Centro, Ticinese and Famagosta).
 
 ## Packages used
-**Python**: pandas, BeautifulSoup, request, geopandas, matplotlib, pyrosm, osmnx, numpy, shapely \
+**Python**: beautifulsoup, request, pandas, geopandas, pyrosm, osmnx, numpy, shapely, matplotlib, seaborn \
 **R**: sf, tmap, spdep, spatialreg
